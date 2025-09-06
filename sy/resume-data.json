@@ -1,0 +1,141 @@
+{
+  "personal": {
+    "name": "Hussein Al‑Haj Ali",
+    "title": "Software Engineer · Flutter Applications Developer",
+    "location": "Riyadh, Saudi Arabia",
+    "phone": "+966‑546109301",
+    "email": "eng.hussein.alhaj.ali@gmail.com",
+    "status": "Open to opportunities"
+  },
+  "about": "Proactive Software and Information Systems Engineer with 3+ years of experience in <b>Flutter</b> development (mobile, desktop, and web), and a solid foundation in <b>Android Java</b>. Experienced team leader with strong problem‑solving skills, freelance consultant, and a passionate developer focused on user‑centric solutions.",
+  "experience": [
+    {
+      "company": "TAD Center",
+      "location": "Hybrid",
+      "period": "Feb 2024 – Present",
+      "positions": [
+        {
+          "title": "Flutter Team Leader",
+          "period": "Aug 2024 – Present",
+          "responsibilities": [
+            "Led a team from concept to deployment.",
+            "Trained junior developers & improved workflows.",
+            "Coordinated cross‑team system integration."
+          ]
+        },
+        {
+          "title": "Flutter Developer",
+          "period": "Feb 2024 – Aug 2024",
+          "responsibilities": [
+            "Developed cross‑platform mobile apps.",
+            "Enhanced app performance & UX.",
+            "Integrated with backend & UI/UX teams."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Al‑Matin Group",
+      "location": "Onsite",
+      "period": "Aug 2022 – Aug 2024",
+      "responsibilities": [
+        "Developed internal productivity tools in Flutter.",
+        "Created cost/production management systems.",
+        "Integrated Odoo ERP for HR, finance, inventory."
+      ]
+    },
+    {
+      "company": "Golden‑Soft",
+      "location": "Remote",
+      "period": "Jun 2023 – Nov 2023",
+      "responsibilities": [
+        "Built feature‑rich mobile apps (payments, chat, maps).",
+        "Applied Agile methodology & iterative releases.",
+        "Solved complex API & frontend issues."
+      ]
+    },
+    {
+      "company": "Freelance Developer",
+      "period": "2019 – Present",
+      "responsibilities": [
+        "Delivered end‑to‑end app/web solutions for clients.",
+        "Developed scalable tools for businesses & students.",
+        "Tutored students in Java & C++."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Electric Devices",
+      "description": "Control devices via Bluetooth/Wi‑Fi/Internet with encrypted keys."
+    },
+    {
+      "name": "Sections",
+      "description": "Manage employee performance and official documents with e‑signatures and notifications."
+    },
+    {
+      "name": "Qundos",
+      "description": "Connects clients to maintenance technicians with location & secure chat features."
+    },
+    {
+      "name": "School App",
+      "description": "Manages student data & organizes school competitions."
+    },
+    {
+      "name": "Best Coach",
+      "description": "Gym app with training levels and sports equipment marketplace."
+    },
+    {
+      "name": "Al‑Matin HR App",
+      "description": "Manages employee leaves, evaluations, and HR tasks."
+    },
+    {
+      "name": "Production System",
+      "description": "Real‑time production tracking with reporting."
+    },
+    {
+      "name": "Cost Calculations",
+      "description": "Tracks and analyzes sales & production data in real‑time."
+    },
+    {
+      "name": "AIODA (College Project)",
+      "description": "AI object detection app using YOLO for the visually impaired."
+    },
+    {
+      "name": "DMA (College Project)",
+      "description": "Digital medical assistant for disease identification."
+    },
+    {
+      "name": "My Univ",
+      "description": "Website to archive university lectures and resources."
+    }
+  ],
+  "skills": {
+    "Languages": ["Dart", "Java", "C++", "Python", "PHP", "JavaScript", "HTML/CSS"],
+    "Mobile Development": ["Flutter (Android · iOS · Web · Desktop)", "Android (Java)"],
+    "Backend / ERP": ["Firebase", "Odoo ERP"],
+    "Tools": ["Android Studio", "VS Code", "Git", "SQL Server", "VMware"],
+    "Databases": ["MySQL", "Oracle", "SQL Server"],
+    "Design": ["UML", "SDLC", "Design Patterns"],
+    "Soft Skills": ["Leadership", "Communication", "Problem Solving", "Time Management"]
+  },
+  "education": {
+    "degree": "BSc in Informatics Technology Engineering",
+    "university": "Al‑Baath University, Syria",
+    "year": "2021",
+    "major": "Software Engineering & Information Systems"
+  },
+  "achievements": [
+    "Selected for DMA project incubation by Al‑Baath University (2019)."
+  ],
+  "languages": [
+    "Arabic (Native)",
+    "English (B2 – Oxford Online Placement Test)"
+  ],
+  "contact": {
+    "email": "eng.hussein.alhaj.ali@gmail.com",
+    "linkedin": "https://linkedin.com/in/YOUR_USERNAME",
+    "github": "https://github.com/husseinalhajali"
+  },
+  "quote": "\"Software is a reflection of the engineer who builds it.\""
+}
