@@ -529,14 +529,8 @@
       "personal": {
         "name": "Hussein Al‑Haj Ali",
         "title": "Software Engineer · Flutter Applications Developer",
-        "location": {
-          "syria": "Homs, Syria",
-          "default": "Riyadh, Saudi Arabia"
-        },
-        "phone": {
-          "syria": "+963‑945825568",
-          "default": "+966‑546109301"
-        },
+        "location": "Riyadh, Saudi Arabia",
+        "phone": "+966‑546109301",
         "email": "eng.hussein.alhaj.ali@gmail.com",
         "status": "Open to opportunities"
       },
@@ -730,38 +724,6 @@
     };
     
     let resumeData = null;
-    let userCountry = null;
-
-    // Detect if user is from Syria by IP
-    async function detectUserLocation() {
-      try {
-        const response = await fetch('https://ipinfo.io/json');
-        const data = await response.json();
-        const ip = data.ip;
-        
-        // Check if IP is from Syria
-        if (data.country === 'SY' || isSyrianIP(ip)) {
-          userCountry = 'SY';
-        } else {
-          userCountry = 'default';
-        }
-      } catch (error) {
-        console.log('Location detection failed, using default');
-        userCountry = 'default';
-      }
-    }
-    
-    // Check if IP is in Syrian ranges
-    function isSyrianIP(ip) {
-      const ipParts = ip.split('.').map(Number);
-      const ipNum = (ipParts[0] << 24) + (ipParts[1] << 16) + (ipParts[2] << 8) + ipParts[3];
-      
-      // Syrian Telecom range: 5.0.175.0 - 5.0.175.255
-      const syrianStart = (5 << 24) + (0 << 16) + (175 << 8) + 0;
-      const syrianEnd = (5 << 24) + (0 << 16) + (175 << 8) + 255;
-      
-      return ipNum >= syrianStart && ipNum <= syrianEnd;
-    }
 
     // Load images dynamically from folder
     async function loadProjectImages(project) {
@@ -782,9 +744,6 @@
     }
     
     async function loadResumeData() {
-      // Detect user location first
-      await detectUserLocation();
-      
       try {
         // Try to load from JSON file first
         const response = await fetch('data.json');
@@ -808,16 +767,12 @@
       try {
         const data = resumeData;
         
-        // Personal info with location-based data
-        const locationKey = userCountry === 'SY' ? 'syria' : 'default';
-        const location = typeof data.personal.location === 'object' ? data.personal.location[locationKey] : data.personal.location;
-        const phone = typeof data.personal.phone === 'object' ? data.personal.phone[locationKey] : data.personal.phone;
-        
+        // Personal info
         document.getElementById('page-title').textContent = `${data.personal.name} — ${data.personal.title}`;
         document.getElementById('name').innerHTML = `👋 <span class="typing">${data.personal.name}</span>`;
         document.getElementById('title').textContent = data.personal.title;
-        document.getElementById('location').innerHTML = `📍 ${location}`;
-        document.getElementById('phone').innerHTML = `📞 <a href="tel:${phone}">${phone}</a>`;
+        document.getElementById('location').innerHTML = `📍 ${data.personal.location}`;
+        document.getElementById('phone').innerHTML = `📞 <a href="tel:${data.personal.phone}">${data.personal.phone}</a>`;
         document.getElementById('email').innerHTML = `📧 <a href="mailto:${data.personal.email}">${data.personal.email}</a>`;
         document.getElementById('status').textContent = data.personal.status;
         
@@ -932,10 +887,9 @@
         document.getElementById('languages-list').innerHTML = 
           data.languages.map(lang => `<li>${lang}</li>`).join('');
         
-        // Contact with social links (location-based phone)
+        // Contact with social links
         document.getElementById('contact-list').innerHTML = `
           <li>📧 Email: <a href="mailto:${data.contact.email}">${data.contact.email}</a></li>
-          <li>📞 Phone: <a href="tel:${phone}">${phone}</a></li>
           <li>💼 LinkedIn: <a href="${data.contact.linkedin}" target="_blank" rel="noopener">${data.contact.linkedin.replace('https://', '')}</a></li>
           <li>🐙 GitHub: <a href="${data.contact.github}" target="_blank" rel="noopener">${data.contact.github.replace('https://', '')}</a></li>
         `;
@@ -1505,9 +1459,7 @@
       
       const whatsappMessage = `Hi Hussein! 👋\n\nName: ${name}${email ? `\nEmail: ${email}` : ''}\n\nMessage: ${message}`;
       
-      // Use appropriate WhatsApp number based on location
-      const whatsappNumber = userCountry === 'SY' ? '963945825568' : '966546109301';
-      window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
+      window.open(`https://wa.me/966546109301?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
     }
     
     let savedScrollPosition = 0;
