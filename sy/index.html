@@ -13,7 +13,7 @@
       --card:#111827;
       --muted:#9ca3af;
       --text:#e5e7eb;
-      --accent:#e74c3c;
+      --accent:#f6a91b;
       --primary:#3f4985;
       --border:#1f2937;
     }
@@ -769,7 +769,7 @@
         
         // Personal info
         document.getElementById('page-title').textContent = `${data.personal.name} — ${data.personal.title}`;
-        document.getElementById('name').innerHTML = `🇸🇾 <span class="typing">${data.personal.name} - SY Version</span>`;
+        document.getElementById('name').innerHTML = `👋 <span class="typing">${data.personal.name}</span>`;
         document.getElementById('title').textContent = data.personal.title;
         document.getElementById('location').innerHTML = `📍 ${data.personal.location}`;
         document.getElementById('phone').innerHTML = `📞 <a href="tel:${data.personal.phone}">${data.personal.phone}</a>`;
