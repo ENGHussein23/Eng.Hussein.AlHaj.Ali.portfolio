@@ -1,0 +1,180 @@
+{
+  "personal": {
+    "name": "Hussein Al‑Haj Ali",
+    "title": "Software Engineer · Flutter Applications Developer",
+    "location": "Riyadh, Saudi Arabia",
+    "phone": "+966‑546109301",
+    "email": "eng.hussein.alhaj.ali@gmail.com",
+    "status": "Open to opportunities"
+  },
+  "about": "Proactive Software and Information Systems Engineer with 3+ years of experience in <b>Flutter</b> development (mobile, desktop, and web), and a solid foundation in <b>Android Java</b>. Experienced team leader with strong problem‑solving skills, freelance consultant, and a passionate developer focused on user‑centric solutions.",
+  "experience": [
+    {
+      "company": "TAD Center",
+      "location": "Hybrid",
+      "period": "Feb 2024 – Present",
+      "positions": [
+        {
+          "title": "Flutter Team Leader",
+          "period": "Aug 2024 – Present",
+          "responsibilities": [
+            "Led a team from concept to deployment.",
+            "Trained junior developers & improved workflows.",
+            "Coordinated cross‑team system integration."
+          ]
+        },
+        {
+          "title": "Flutter Developer",
+          "period": "Feb 2024 – Aug 2024",
+          "responsibilities": [
+            "Developed cross‑platform mobile apps.",
+            "Enhanced app performance & UX.",
+            "Integrated with backend & UI/UX teams."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Al‑Matin Group",
+      "location": "Onsite",
+      "period": "Aug 2022 – Aug 2024",
+      "responsibilities": [
+        "Developed internal productivity tools in Flutter.",
+        "Created cost/production management systems.",
+        "Integrated Odoo ERP for HR, finance, inventory."
+      ]
+    },
+    {
+      "company": "Golden‑Soft",
+      "location": "Remote",
+      "period": "Jun 2023 – Nov 2023",
+      "responsibilities": [
+        "Built feature‑rich mobile apps (payments, chat, maps).",
+        "Applied Agile methodology & iterative releases.",
+        "Solved complex API & frontend issues."
+      ]
+    },
+    {
+      "company": "Freelance Developer",
+      "period": "2019 – Present",
+      "responsibilities": [
+        "Delivered end‑to‑end app/web solutions for clients.",
+        "Developed scalable tools for businesses & students.",
+        "Tutored students in Java & C++."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Electric Devices",
+      "description": "Control devices via Bluetooth/Wi‑Fi/Internet with encrypted keys.",
+      "details": "A comprehensive IoT control application that allows users to manage various electronic devices remotely. Features include secure encrypted communication, multi-protocol support (Bluetooth, Wi-Fi, Internet), and real-time device monitoring.",
+      "technologies": ["Flutter", "Bluetooth", "Wi-Fi", "IoT", "Encryption"],
+      "link": "https://github.com/husseinalhajali/electric-devices",
+      "images": ["projects_images/test.jpg", "projects_images/test - Copy.jpg"]
+    },
+    {
+      "name": "Sections",
+      "description": "Manage employee performance and official documents with e‑signatures and notifications.",
+      "details": "Enterprise-level HR management system with advanced document handling, electronic signatures, performance tracking, and automated notification system. Built for scalability and security.",
+      "technologies": ["Flutter", "Firebase", "E-Signature", "Push Notifications"],
+      "link": "",
+      "images": ["projects_images/test - Copy (2).jpg", "projects_images/test - Copy (3).jpg"]
+    },
+    {
+      "name": "Qundos",
+      "description": "Connects clients to maintenance technicians with location & secure chat features.",
+      "details": "On-demand maintenance service platform connecting customers with verified technicians. Features real-time location tracking, secure messaging, payment integration, and service rating system.",
+      "technologies": ["Flutter", "Google Maps", "Real-time Chat", "Payment Gateway"],
+      "link": "https://play.google.com/store/apps/details?id=com.qundos.app",
+      "images": ["projects_images/test - Copy - Copy.jpg", "projects_images/test - Copy - Copy (2).jpg"]
+    },
+    {
+      "name": "School App",
+      "description": "Manages student data & organizes school competitions.",
+      "details": "Complete school management system handling student information, academic records, competition organization, and parent-teacher communication.",
+      "technologies": ["Flutter", "SQLite", "Firebase"],
+      "link": "",
+      "images": ["projects_images/test - Copy - Copy - Copy.jpg"]
+    },
+    {
+      "name": "Best Coach",
+      "description": "Gym app with training levels and sports equipment marketplace.",
+      "details": "Fitness application combining personalized training programs with an integrated marketplace for sports equipment. Features workout tracking, progress analytics, and social features.",
+      "technologies": ["Flutter", "Firebase", "Payment Integration", "Analytics"],
+      "link": "",
+      "images": ["projects_images/test - Copy (2) - Copy.jpg"]
+    },
+    {
+      "name": "Al‑Matin HR App",
+      "description": "Manages employee leaves, evaluations, and HR tasks.",
+      "details": "Internal HR management application for Al-Matin Group, handling employee leave requests, performance evaluations, and various HR administrative tasks with workflow automation.",
+      "technologies": ["Flutter", "Odoo ERP Integration", "REST API"],
+      "link": "",
+      "images": []
+    },
+    {
+      "name": "Production System",
+      "description": "Real‑time production tracking with reporting.",
+      "details": "Industrial production monitoring system providing real-time tracking of manufacturing processes, quality control, and comprehensive reporting dashboard.",
+      "technologies": ["Flutter", "Real-time Database", "Charts", "PDF Reports"],
+      "link": "",
+      "images": []
+    },
+    {
+      "name": "Cost Calculations",
+      "description": "Tracks and analyzes sales & production data in real‑time.",
+      "details": "Business intelligence application for cost analysis, sales tracking, and production data analytics with advanced reporting and forecasting capabilities.",
+      "technologies": ["Flutter", "Data Analytics", "Charts", "Export Features"],
+      "link": "",
+      "images": []
+    },
+    {
+      "name": "AIODA (College Project)",
+      "description": "AI object detection app using YOLO for the visually impaired.",
+      "details": "Accessibility-focused mobile application using YOLO object detection to assist visually impaired users in identifying objects in their environment through voice feedback.",
+      "technologies": ["Flutter", "YOLO", "TensorFlow", "Text-to-Speech", "Camera API"],
+      "link": "https://github.com/husseinalhajali/aioda",
+      "images": []
+    },
+    {
+      "name": "DMA (College Project)",
+      "description": "Digital medical assistant for disease identification.",
+      "details": "AI-powered medical diagnostic assistant that helps identify potential diseases based on symptoms input. Selected for incubation by Al-Baath University.",
+      "technologies": ["Flutter", "Machine Learning", "Medical Database", "AI Algorithms"],
+      "link": "",
+      "images": []
+    },
+    {
+      "name": "My Univ",
+      "description": "Website to archive university lectures and resources.",
+      "details": "Educational platform for archiving and organizing university lectures, study materials, and academic resources with search and categorization features.",
+      "technologies": ["Web Development", "Database", "File Management", "Search Engine"],
+      "link": "",
+      "images": []
+    }
+  ],
+  "skills": {
+    "Languages": ["Dart", "Java", "C++", "Python", "PHP", "JavaScript", "HTML/CSS"],
+    "Mobile Development": ["Flutter (Android · iOS · Web · Desktop)", "Android (Java)"],
+    "Backend / ERP": ["Firebase", "Odoo ERP"],
+    "Tools": ["Android Studio", "VS Code", "Git", "SQL Server", "VMware"],
+    "Databases": ["MySQL", "Oracle", "SQL Server"],
+    "Design": ["UML", "SDLC", "Design Patterns"],
+    "Soft Skills": ["Leadership", "Communication", "Problem Solving", "Time Management"]
+  },
+  "education": {
+    "degree": "BSc in Informatics Technology Engineering",
+    "university": "Al‑Baath University, Syria",
+    "year": "2021",
+    "major": "Software Engineering & Information Systems"
+  },
+  "achievements": ["Selected for DMA project incubation by Al‑Baath University (2019)."],
+  "languages": ["Arabic (Native)", "English (B2 – Oxford Online Placement Test)"],
+  "contact": {
+    "email": "eng.hussein.alhaj.ali@gmail.com",
+    "linkedin": "https://linkedin.com/in/YOUR_USERNAME",
+    "github": "https://github.com/husseinalhajali"
+  },
+  "quote": "\"Software is a reflection of the engineer who builds it.\""
+}
