@@ -1,70 +1,123 @@
 {
   "personal": {
     "name": "Hussein Al‑Haj Ali",
-    "title": "Software Engineer · Flutter Applications Developer",
-    "location": "Riyadh, Saudi Arabia",
-    "phone": "+966‑546109301",
+    "title": "Senior Flutter & Cross-Platform Developer · Software Engineer",
+    "location": "Syria, Homs | Riyadh, Saudi Arabia",
+    "phone": "+963-645825568 | +966-546109301",
     "email": "eng.hussein.alhaj.ali@gmail.com",
     "status": "Open to opportunities"
   },
-  "about": "Proactive Software and Information Systems Engineer with 3+ years of experience in <b>Flutter</b> development (mobile, desktop, and web), and a solid foundation in <b>Android Java</b>. Experienced team leader with strong problem‑solving skills, freelance consultant, and a passionate developer focused on user‑centric solutions.",
+  "about": "Senior Flutter & Cross-Platform Software Engineer with over <b>4.5 years</b> of hands-on experience building scalable, high-performance applications across <b>Android, iOS, desktop, and web</b> platforms. Proven expertise in architecting complex Flutter applications, handling real-time data, asynchronous workflows, advanced state management, and third-party integrations. Strong background in <b>Android (Java)</b> development, with demonstrated success in leading development teams, mentoring engineers, and delivering production-ready solutions from concept to deployment. Experienced in <b>fintech, transportation, delivery, and enterprise systems</b>, with a focus on clean architecture, performance optimization, and user-centric design.",
   "experience": [
     {
       "company": "TAD Center",
       "location": "Hybrid",
-      "period": "Feb 2024 – Present",
+      "period": "Feb 2021 – Jul 2022 & Feb 2024 – Present",
       "positions": [
         {
           "title": "Flutter Team Leader",
           "period": "Aug 2024 – Present",
           "responsibilities": [
-            "Led a team from concept to deployment.",
-            "Trained junior developers & improved workflows.",
-            "Coordinated cross‑team system integration."
+            "Led a team of Flutter developers from concept through delivery, ensuring high-quality standards.",
+            "Trained junior developers in software design, testing, and maintenance best practices.",
+            "Improved workflow efficiency by implementing project management methodologies.",
+            "Collaborated with cross-functional teams for seamless system integration."
           ]
         },
         {
           "title": "Flutter Developer",
           "period": "Feb 2024 – Aug 2024",
           "responsibilities": [
-            "Developed cross‑platform mobile apps.",
-            "Enhanced app performance & UX.",
-            "Integrated with backend & UI/UX teams."
+            "Developed cross-platform applications for Android and iOS using Flutter, with a focus on performance and user experience.",
+            "Worked with UI/UX and backend teams to integrate user-centered features.",
+            "Optimized app performance through debugging and troubleshooting."
+          ]
+        },
+        {
+          "title": "Flutter Developer & Web Developer",
+          "period": "Feb 2021 – Jul 2022",
+          "responsibilities": [
+            "Completed a 3-month apprenticeship before being promoted and accepted into the company.",
+            "Developed mobile applications using various technologies with a focus on functionality and performance.",
+            "Built and maintained websites using the WordPress framework.",
+            "Collaborated with the development team on technical projects to meet client requirements."
           ]
         }
       ]
     },
     {
       "company": "Al‑Matin Group",
-      "location": "Onsite",
+      "location": "Homs, Onsite Full-Time",
       "period": "Aug 2022 – Aug 2024",
       "responsibilities": [
-        "Developed internal productivity tools in Flutter.",
-        "Created cost/production management systems.",
-        "Integrated Odoo ERP for HR, finance, inventory."
+        "Designed and developed internal systems with Flutter, enhancing productivity across departments.",
+        "Led cross-platform app projects, including production and cost-calculation tools, providing real-time operational insights.",
+        "Collaborated with stakeholders to translate business needs into technical solutions; mentored junior developers.",
+        "Implemented Odoo ERP for automating HR, inventory, and finance processes."
       ]
     },
     {
       "company": "Golden‑Soft",
-      "location": "Remote",
+      "location": "Remote Full-Time",
       "period": "Jun 2023 – Nov 2023",
       "responsibilities": [
-        "Built feature‑rich mobile apps (payments, chat, maps).",
-        "Applied Agile methodology & iterative releases.",
-        "Solved complex API & frontend issues."
+        "Developed feature-rich, cross-platform mobile applications using Flutter, collaborating with a globally distributed team.",
+        "Focused on user-centered features, including payment gateways, chat systems, and location-based services, ensuring high usability and performance.",
+        "Employed Agile methodology, actively participating in sprint planning and standups for efficient, iterative development.",
+        "Solved complex technical challenges, including API integrations and front-end optimizations to enhance app stability and performance.",
+        "Collaborated closely with clients to refine requirements, gather feedback, and adapt solutions to meet their needs."
       ]
     },
     {
-      "company": "Freelance Developer",
+      "company": "Freelance Software Developer",
       "period": "2019 – Present",
       "responsibilities": [
-        "Delivered end‑to‑end app/web solutions for clients.",
-        "Developed scalable tools for businesses & students.",
-        "Tutored students in Java & C++."
+        "Delivered full-cycle mobile and web app development for clients, focusing on scalable, user-friendly solutions using Flutter, Java, and C++.",
+        "Built a wide range of applications, from small utilities to enterprise-level systems, providing cross-platform solutions for mobile, desktop and web.",
+        "Solved complex technical challenges, including bug fixes, performance optimizations, and UI/UX improvements to enhance user experience.",
+        "Provided one-on-one tutoring in Java and C++ for students and professionals, strengthening their software development skills.",
+        "Collaborated with international clients to define project goals, create roadmaps, and ensure timely delivery of custom solutions."
       ]
     }
   ],
   "projects": [
+    {
+      "name": "Hawala App",
+      "description": "A secure crypto wallet for creating and managing wallets and transferring cryptocurrencies such as USDT.",
+      "details": "A secure crypto wallet application for creating and managing wallets and transferring cryptocurrencies such as USDT between users or to supported currency exchange offices in regions including Syria and Turkey. Developed using Flutter with a focus on complex asynchronous operations, secure transaction flows, real-time balance synchronization, and robust state management.",
+      "technologies": ["Flutter", "Cryptocurrency", "USDT", "Secure Transactions", "Real-time Sync", "State Management"],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=hawwala.market.me.hawwala"
+      },
+      "images": []
+    },
+    {
+      "name": "Sayara App",
+      "description": "A car marketplace application enabling users to buy and sell vehicles with detailed listings.",
+      "details": "A car marketplace application enabling users to buy and sell vehicles with detailed listings, advanced search filters, and smooth user interactions. Developed with Flutter, focusing on clean architecture, responsive UI, efficient state management, and seamless backend integration.",
+      "technologies": ["Flutter", "Clean Architecture", "Search Filters", "Marketplace", "Backend Integration"],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=com.tad.sayeara.com"
+      },
+      "images": []
+    },
+    {
+      "name": "Ride with Us App",
+      "description": "A full transportation platform combining client and driver functionalities within a single Flutter application.",
+      "details": "A full transportation platform combining client and driver functionalities within a single Flutter application. Clients can browse and book trips, select pick-up and drop-off points, manage baggage options, and apply advanced filters with professional map handling and routing logic. Drivers can add and manage multiple vehicles, customize vehicle details, and receive real-time updates. Built with Flutter focusing on concurrent operations, real-time notifications, advanced map integration, and scalable architecture.",
+      "technologies": ["Flutter", "Google Maps", "Real-time Notifications", "Routing Logic", "Concurrent Operations"],
+      "images": []
+    },
+    {
+      "name": "Door to Door App",
+      "description": "A delivery-focused application designed exclusively for delivery personnel to manage orders.",
+      "details": "A delivery-focused application designed exclusively for delivery personnel to manage orders, accept delivery tasks, track locations, and update order statuses in real time. Implemented with Flutter, leveraging real-time notifications, background services, location tracking, and performance optimization for active delivery workflows.",
+      "technologies": ["Flutter", "Real-time Tracking", "Background Services", "Location Services", "Push Notifications"],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=tadcenter.doortodoor.com"
+      },
+      "images": []
+    },
     {
       "name": "Electric Devices",
       "description": "Control devices via Bluetooth/Wi‑Fi/Internet with encrypted keys.",
@@ -155,26 +208,43 @@
     }
   ],
   "skills": {
-    "Languages": ["Dart", "Java", "C++", "Python", "PHP", "JavaScript", "HTML/CSS"],
-    "Mobile Development": ["Flutter (Android · iOS · Web · Desktop)", "Android (Java)"],
-    "Backend / ERP": ["Firebase", "Odoo ERP"],
-    "Tools": ["Android Studio", "VS Code", "Git", "SQL Server", "VMware"],
+    "Flutter & Cross-Platform": ["Android", "iOS", "Desktop", "Web", "Clean Architecture", "Advanced State Management", "Firebase", "REST API", "Real-time Data", "Pusher", "Performance Optimization", "Responsive UI"],
+    "Languages": ["Dart", "Java", "C++", "C", "Python"],
+    "Mobile Development": ["Flutter", "Android (Java)"],
+    "Platforms": ["Windows (all versions, Server)", "Linux (Fedora, Ubuntu, KUbuntu)"],
+    "Tools": ["Android Studio", "Visual Studio", "VS Code", "Git", "VMware", "MATLAB"],
     "Databases": ["MySQL", "Oracle", "SQL Server"],
+    "Web Development": ["WordPress", "HTML", "CSS", "JavaScript", "PHP", "JSON", "XML"],
+    "ERP": ["Odoo"],
     "Design": ["UML", "SDLC", "Design Patterns"],
-    "Soft Skills": ["Leadership", "Communication", "Problem Solving", "Time Management"]
+    "Soft Skills": ["Team Collaboration", "Leadership", "Communication", "Problem Solving", "Adaptability", "Time Management", "Critical Thinking", "Multitasking"]
   },
   "education": {
-    "degree": "BSc in Informatics Technology Engineering",
-    "university": "Al‑Baath University, Syria",
+    "degree": "Bachelor of Engineering in Informatics Technology Engineering",
+    "university": "Homs University, Syria",
     "year": "2021",
     "major": "Software Engineering & Information Systems"
   },
-  "achievements": ["Selected for DMA project incubation by Al‑Baath University (2019)."],
-  "languages": ["Arabic (Native)", "English (B2 – Oxford Online Placement Test)"],
+  "achievements": ["One of the seat winners in the list of projects incubated by the university for the application of DMA in 2019."],
+  "languages": ["Arabic (Mother tongue)", "English (B2 – Oxford Online Placement Test)"],
   "contact": {
     "email": "eng.hussein.alhaj.ali@gmail.com",
-    "linkedin": "https://linkedin.com/in/YOUR_USERNAME",
+    "linkedin": "https://linkedin.com/in/hussein-alhajali",
     "github": "https://github.com/husseinalhajali"
   },
+  "references": [
+    {
+      "name": "Dr. Asmaa Shaar",
+      "title": "Professor at Faculty of Informatics Engineering at Homs University",
+      "email": "dr.asmaashaar@gmail.com",
+      "phone": "+963-999452581"
+    },
+    {
+      "name": "Eng. Anas Altadmory",
+      "title": "Teacher at Faculty of Informatics Engineering at Homs University and CEO & Founder for TAD Solutions Center",
+      "email": "Anas.altadmory@tadcenter.net",
+      "phone": "+963-994386626"
+    }
+  ],
   "quote": "\"Software is a reflection of the engineer who builds it.\""
 }

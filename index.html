@@ -205,12 +205,17 @@
     /* Timeline Styles */
     .timeline-container{position:relative;padding-left:30px}
     .timeline-line{position:absolute;left:15px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--accent),#e09900);border-radius:1px}
-    .timeline-item{position:relative;margin-bottom:30px;padding:20px;background:rgba(17,24,39,.4);border-radius:12px;border-left:3px solid var(--accent);transform:translateX(0);transition:all 0.3s ease}
+    .timeline-item{position:relative;margin-bottom:30px;padding:20px;background:rgba(17,24,39,.4);border-radius:12px;border-left:3px solid var(--accent);transform:translateX(0);transition:all 0.3s ease;cursor:pointer}
     .timeline-item:hover{transform:translateX(10px);box-shadow:0 8px 25px rgba(246,169,27,.2)}
     .timeline-item::before{content:'';position:absolute;left:-33px;top:25px;width:12px;height:12px;background:var(--accent);border-radius:50%;border:3px solid var(--bg);box-shadow:0 0 0 3px rgba(246,169,27,.3)}
     .timeline-date{color:var(--accent);font-weight:600;font-size:14px;margin-bottom:8px}
     .timeline-company{font-size:18px;font-weight:600;color:var(--text);margin-bottom:4px}
     .timeline-position{color:var(--muted);font-size:14px;margin-bottom:12px}
+    .experience-details{max-height:0;overflow:hidden;transition:max-height 0.4s ease,opacity 0.3s ease;opacity:0}
+    .experience-details.expanded{max-height:2000px;opacity:1;margin-top:12px}
+    .experience-hint{font-size:11px;color:var(--muted);font-style:italic;margin-top:8px;opacity:0.7}
+    .expand-indicator{display:inline-block;margin-left:8px;transition:transform 0.3s ease;font-size:12px}
+    .timeline-item.expanded .expand-indicator{transform:rotate(180deg)}
     
     /* Multi-Position Company Widget */
     .multi-position-company{background:rgba(17,24,39,.6);border-left:4px solid var(--accent);position:relative}
@@ -536,24 +541,36 @@
         {
           "company": "TAD Center",
           "location": "Hybrid",
-          "period": "Feb 2024 – Present",
+          "period": "Feb 2021 – Jul 2022 & Feb 2024 – Present",
           "positions": [
             {
               "title": "Flutter Team Leader",
               "period": "Aug 2024 – Present",
               "responsibilities": [
-                "Led a team from concept to deployment.",
-                "Trained junior developers & improved workflows.",
-                "Coordinated cross‑team system integration."
+                "Led a team of Flutter developers from concept through delivery, ensuring high-quality standards.",
+                "Trained junior developers in software design, testing, and maintenance best practices.",
+                "Improved workflow efficiency by implementing project management methodologies.",
+                "Collaborated with cross-functional teams for seamless system integration."
               ]
             },
             {
               "title": "Flutter Developer",
               "period": "Feb 2024 – Aug 2024",
               "responsibilities": [
-                "Developed cross‑platform mobile apps.",
-                "Enhanced app performance & UX.",
-                "Integrated with backend & UI/UX teams."
+                "Developed cross-platform applications for Android and iOS using Flutter, with a focus on performance and user experience.",
+                "Worked with UI/UX and backend teams to integrate user-centered features.",
+                "Optimized app performance through debugging and troubleshooting."
+              ]
+            },
+            {
+              "title": "Flutter Developer & Web Developer",
+              "period": "Feb 2021 – Jul 2022",
+              "responsibilities": [
+                "Completed a 3-month apprenticeship before being promoted and accepted into the company.",
+                "Developed mobile applications using various technologies with a focus on functionality and performance.",
+                "Built and maintained websites using the WordPress framework.",
+                "Collaborated with the development team on technical projects to meet client requirements.",
+                "Contributed to the communications team by managing client interactions and project discussions."
               ]
             }
           ]
@@ -589,6 +606,47 @@
         }
       ],
       "projects": [
+        {
+          "name": "Hawala App",
+          "description": "A secure crypto wallet for creating and managing wallets and transferring cryptocurrencies such as USDT.",
+          "details": "A secure crypto wallet application for creating and managing wallets and transferring cryptocurrencies such as USDT between users or to supported currency exchange offices in regions including Syria and Turkey. Developed using Flutter with a focus on complex asynchronous operations, secure transaction flows, real-time balance synchronization, and robust state management.",
+          "technologies": ["Flutter", "Cryptocurrency", "USDT", "Secure Transactions", "Real-time Sync", "State Management"],
+          "links": {
+            "playstore": "https://play.google.com/store/apps/details?id=hawwala.market.me.hawwala"
+          },
+          "imageFolder": "",
+          "images": []
+        },
+        {
+          "name": "Sayara App",
+          "description": "A car marketplace application enabling users to buy and sell vehicles with detailed listings.",
+          "details": "A car marketplace application enabling users to buy and sell vehicles with detailed listings, advanced search filters, and smooth user interactions. Developed with Flutter, focusing on clean architecture, responsive UI, efficient state management, and seamless backend integration.",
+          "technologies": ["Flutter", "Clean Architecture", "Search Filters", "Marketplace", "Backend Integration"],
+          "links": {
+            "playstore": "https://play.google.com/store/apps/details?id=com.tad.sayeara.com"
+          },
+          "imageFolder": "",
+          "images": []
+        },
+        {
+          "name": "Ride with Us App",
+          "description": "A full transportation platform combining client and driver functionalities within a single Flutter application.",
+          "details": "A full transportation platform combining client and driver functionalities within a single Flutter application. Clients can browse and book trips, select pick-up and drop-off points, manage baggage options, and apply advanced filters with professional map handling and routing logic. Drivers can add and manage multiple vehicles, customize vehicle details, and receive real-time updates. Built with Flutter focusing on concurrent operations, real-time notifications, advanced map integration, and scalable architecture.",
+          "technologies": ["Flutter", "Google Maps", "Real-time Notifications", "Routing Logic", "Concurrent Operations"],
+          "imageFolder": "",
+          "images": []
+        },
+        {
+          "name": "Door to Door App",
+          "description": "A delivery-focused application designed exclusively for delivery personnel to manage orders.",
+          "details": "A delivery-focused application designed exclusively for delivery personnel to manage orders, accept delivery tasks, track locations, and update order statuses in real time. Implemented with Flutter, leveraging real-time notifications, background services, location tracking, and performance optimization for active delivery workflows.",
+          "technologies": ["Flutter", "Real-time Tracking", "Background Services", "Location Services", "Push Notifications"],
+          "links": {
+            "playstore": "https://play.google.com/store/apps/details?id=tadcenter.doortodoor.com"
+          },
+          "imageFolder": "",
+          "images": []
+        },
         {
           "name": "Electric Devices",
           "description": "Control devices via Bluetooth/Wi‑Fi/Internet with encrypted keys.",
@@ -742,8 +800,8 @@
     
     async function loadResumeData() {
       try {
-        // Try to load from JSON file first
-        const response = await fetch('data.json');
+        // Try to load from JSON file first with cache busting
+        const response = await fetch('data.json?v=' + new Date().getTime());
         if (response.ok) {
           const data = await response.json();
           resumeData = data;
@@ -777,17 +835,13 @@
         document.getElementById('about').innerHTML = data.about;
         
         // Experience Timeline
-        const timelineHtml = data.experience.map(exp => {
+        const timelineHtml = data.experience.map((exp, expIndex) => {
+          const expandIndicator = '<span class="expand-indicator">▼</span>';
+          
           if (exp.positions) {
-            // Multi-position company widget
-            return `
-              <div class="timeline-item multi-position-company">
-                <div class="timeline-date">${exp.period}</div>
-                <div class="timeline-company">
-                  <span class="company-name">${exp.company}</span>
-                  <span class="company-location"> • ${exp.location}</span>
-                  <span class="positions-count">${exp.positions.length} positions</span>
-                </div>
+            const currentPosition = exp.positions[0];
+            const detailsHtml = `
+              <div class="experience-details">
                 <div class="positions-container">
                   ${exp.positions.map((pos, index) => `
                     <div class="position-item">
@@ -801,14 +855,33 @@
                 </div>
               </div>
             `;
-          } else {
-            // Single position company widget
+            
             return `
-              <div class="timeline-item single-position-company">
+              <div class="timeline-item multi-position-company" onclick="toggleExperienceItem(${expIndex})">
                 <div class="timeline-date">${exp.period}</div>
-                <div class="timeline-company">${exp.company}</div>
-                <div class="timeline-position">${exp.location || ''}</div>
+                <div class="timeline-company">
+                  <span class="company-name">${exp.company}</span>
+                  <span class="company-location"> • ${exp.location}</span>
+                  <span class="positions-count">${exp.positions.length} positions</span>
+                  ${expandIndicator}
+                </div>
+                <div style="color:var(--muted);font-size:14px;margin-top:4px">${currentPosition.title}</div>
+                ${detailsHtml}
+              </div>
+            `;
+          } else {
+            const detailsHtml = `
+              <div class="experience-details">
                 <ul>${exp.responsibilities.map(r => `<li>${r}</li>`).join('')}</ul>
+              </div>
+            `;
+            
+            return `
+              <div class="timeline-item single-position-company" onclick="toggleExperienceItem(${expIndex})">
+                <div class="timeline-date">${exp.period}</div>
+                <div class="timeline-company">${exp.company}${expandIndicator}</div>
+                <div class="timeline-position">${exp.location || ''}</div>
+                ${detailsHtml}
               </div>
             `;
           }
@@ -1637,6 +1710,24 @@
     
     function openImageInNewTab(imageSrc) {
       window.open(imageSrc, '_blank');
+    }
+    
+    // Toggle individual experience item
+    function toggleExperienceItem(index) {
+      const items = document.querySelectorAll('.timeline-item');
+      const item = items[index];
+      const details = item.querySelector('.experience-details');
+      const indicator = item.querySelector('.expand-indicator');
+      
+      if (details.classList.contains('expanded')) {
+        details.classList.remove('expanded');
+        if (indicator) indicator.style.transform = 'rotate(0deg)';
+        item.classList.remove('expanded');
+      } else {
+        details.classList.add('expanded');
+        if (indicator) indicator.style.transform = 'rotate(180deg)';
+        item.classList.add('expanded');
+      }
     }
     
     loadResumeData();

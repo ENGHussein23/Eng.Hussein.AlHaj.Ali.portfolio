@@ -1,13 +1,13 @@
 {
   "personal": {
     "name": "Hussein Al‑Haj Ali",
-    "title": "Software Engineer · Flutter Applications Developer",
-    "location": "Riyadh, Saudi Arabia",
-    "phone": "+966‑546109301",
+    "title": "Senior Flutter & Cross-Platform Developer · Software Engineer",
+    "location": "Syria, Homs | Riyadh, Saudi Arabia",
+    "phone": "+963-645825568 | +966-546109301",
     "email": "eng.hussein.alhaj.ali@gmail.com",
     "status": "Open to opportunities"
   },
-  "about": "Proactive Software and Information Systems Engineer with 3+ years of experience in <b>Flutter</b> development (mobile, desktop, and web), and a solid foundation in <b>Android Java</b>. Experienced team leader with strong problem‑solving skills, freelance consultant, and a passionate developer focused on user‑centric solutions.",
+  "about": "Senior Flutter & Cross-Platform Software Engineer with over <b>4.5 years</b> of hands-on experience building scalable, high-performance applications across <b>Android, iOS, desktop, and web</b> platforms. Proven expertise in architecting complex Flutter applications, handling real-time data, asynchronous workflows, advanced state management, and third-party integrations. Strong background in <b>Android (Java)</b> development, with demonstrated success in leading development teams, mentoring engineers, and delivering production-ready solutions from concept to deployment. Experienced in <b>fintech, transportation, delivery, and enterprise systems</b>, with a focus on clean architecture, performance optimization, and user-centric design.",
   "experience": [
     {
       "company": "TAD Center",
@@ -65,6 +65,22 @@
     }
   ],
   "projects": [
+    {
+      "name": "Hawala App",
+      "description": "A secure crypto wallet for creating and managing wallets and transferring cryptocurrencies such as USDT."
+    },
+    {
+      "name": "Sayara App",
+      "description": "A car marketplace application enabling users to buy and sell vehicles with detailed listings."
+    },
+    {
+      "name": "Ride with Us App",
+      "description": "A full transportation platform combining client and driver functionalities within a single Flutter application."
+    },
+    {
+      "name": "Door to Door App",
+      "description": "A delivery-focused application designed exclusively for delivery personnel to manage orders."
+    },
     {
       "name": "Electric Devices",
       "description": "Control devices via Bluetooth/Wi‑Fi/Internet with encrypted keys."
