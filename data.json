@@ -124,8 +124,7 @@
       "details": "A comprehensive IoT control application that allows users to manage various electronic devices remotely. Features include secure encrypted communication, multi-protocol support (Bluetooth, Wi-Fi, Internet), and real-time device monitoring.",
       "technologies": ["Flutter", "Bluetooth", "Wi-Fi", "IoT", "Encryption"],
       "link": "https://github.com/husseinalhajali/electric-devices",
-      "imageFolder": "electric-devices",
-      "images": []
+      "images": ["projects_images/electric-devices/electric-devices-1.jpg","projects_images/electric-devices/electric-devices-2.jpg","projects_images/electric-devices/electric-devices-3.jpg","projects_images/electric-devices/electric-devices-4.jpg","projects_images/electric-devices/electric-devices-5.jpg","projects_images/electric-devices/electric-devices-6.jpg"]
     },
     {
       "name": "Sections",
@@ -133,8 +132,7 @@
       "details": "Enterprise-level HR management system with advanced document handling, electronic signatures, performance tracking, and automated notification system. Built for scalability and security.",
       "technologies": ["Flutter", "Firebase", "E-Signature", "Push Notifications"],
       "link": "",
-      "imageFolder": "sections",
-      "images": []
+      "images": ["projects_images/sections/1.jpg","projects_images/sections/2.jpg","projects_images/sections/3.jpg","projects_images/sections/4.jpg","projects_images/sections/5.jpg","projects_images/sections/6.jpg","projects_images/sections/7.jpg","projects_images/sections/8.jpg","projects_images/sections/9.jpg","projects_images/sections/10.jpg","projects_images/sections/11.jpg","projects_images/sections/12.jpg","projects_images/sections/13.jpg","projects_images/sections/14.jpg","projects_images/sections/15.jpg"]
     },
     {
       "name": "Qundos",
@@ -150,8 +148,7 @@
       "details": "Complete school management system handling student information, academic records, competition organization, and parent-teacher communication.",
       "technologies": ["Flutter", "SQLite", "Firebase"],
       "link": "",
-      "imageFolder": "school-app",
-      "images": []
+      "images": ["projects_images/school-app/school-app-1.jpg","projects_images/school-app/school-app-2.jpg","projects_images/school-app/school-app-3.jpg","projects_images/school-app/school-app-4.jpg","projects_images/school-app/school-app-5.jpg","projects_images/school-app/school-app-6.jpg","projects_images/school-app/school-app-7.jpg","projects_images/school-app/school-app-8.jpg","projects_images/school-app/school-app-9.jpg"]
     },
     {
       "name": "Best Coach",
@@ -159,8 +156,7 @@
       "details": "Fitness application combining personalized training programs with an integrated marketplace for sports equipment. Features workout tracking, progress analytics, and social features.",
       "technologies": ["Flutter", "Firebase", "Payment Integration", "Analytics"],
       "link": "",
-      "imageFolder": "best-coach",
-      "images": []
+      "images": ["projects_images/best-coach/1757000767531.jpg","projects_images/best-coach/1757000767586.jpg","projects_images/best-coach/1757000767661.jpg","projects_images/best-coach/1757000767719.jpg","projects_images/best-coach/1757000767777.jpg","projects_images/best-coach/1757000767835.jpg","projects_images/best-coach/1757000767903.jpg","projects_images/best-coach/1757000767972.jpg","projects_images/best-coach/1757000768035.jpg","projects_images/best-coach/1757000768106.jpg","projects_images/best-coach/1757000768161.jpg","projects_images/best-coach/1757000768215.jpg","projects_images/best-coach/1757000768278.jpg","projects_images/best-coach/1757000768329.jpg","projects_images/best-coach/1757000768376.jpg"]
     },
     {
       "name": "Al‑Matin HR App",
@@ -168,8 +164,7 @@
       "details": "Internal HR management application for Al-Matin Group, handling employee leave requests, performance evaluations, and various HR administrative tasks with workflow automation.",
       "technologies": ["Flutter", "Odoo ERP Integration", "REST API"],
       "link": "",
-      "imageFolder": "almatin-hr",
-      "images": []
+      "images": ["projects_images/almatin-hr/IMG-20230501-WA0013.jpg","projects_images/almatin-hr/IMG-20230501-WA0014.jpg","projects_images/almatin-hr/IMG-20230501-WA0015.jpg","projects_images/almatin-hr/IMG-20230501-WA0016.jpg","projects_images/almatin-hr/IMG-20230501-WA0017.jpg","projects_images/almatin-hr/IMG-20230501-WA0018.jpg","projects_images/almatin-hr/IMG-20230501-WA0019.jpg","projects_images/almatin-hr/IMG-20230501-WA0021.jpg","projects_images/almatin-hr/IMG-20230501-WA0022.jpg","projects_images/almatin-hr/IMG-20230501-WA0027.jpg","projects_images/almatin-hr/IMG-20230501-WA0028.jpg","projects_images/almatin-hr/IMG-20230501-WA0031.jpg"]
     },
     {
       "name": "Production System",
