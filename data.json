@@ -124,7 +124,8 @@
       "details": "A comprehensive IoT control application that allows users to manage various electronic devices remotely. Features include secure encrypted communication, multi-protocol support (Bluetooth, Wi-Fi, Internet), and real-time device monitoring.",
       "technologies": ["Flutter", "Bluetooth", "Wi-Fi", "IoT", "Encryption"],
       "link": "https://github.com/husseinalhajali/electric-devices",
-      "images": ["projects_images/test.jpg", "projects_images/test - Copy.jpg"]
+      "imageFolder": "electric-devices",
+      "images": []
     },
     {
       "name": "Sections",
@@ -132,7 +133,8 @@
       "details": "Enterprise-level HR management system with advanced document handling, electronic signatures, performance tracking, and automated notification system. Built for scalability and security.",
       "technologies": ["Flutter", "Firebase", "E-Signature", "Push Notifications"],
       "link": "",
-      "images": ["projects_images/test - Copy (2).jpg", "projects_images/test - Copy (3).jpg"]
+      "imageFolder": "sections",
+      "images": []
     },
     {
       "name": "Qundos",
@@ -140,7 +142,7 @@
       "details": "On-demand maintenance service platform connecting customers with verified technicians. Features real-time location tracking, secure messaging, payment integration, and service rating system.",
       "technologies": ["Flutter", "Google Maps", "Real-time Chat", "Payment Gateway"],
       "link": "https://play.google.com/store/apps/details?id=com.qundos.app",
-      "images": ["projects_images/test - Copy - Copy.jpg", "projects_images/test - Copy - Copy (2).jpg"]
+      "images": []
     },
     {
       "name": "School App",
@@ -148,7 +150,8 @@
       "details": "Complete school management system handling student information, academic records, competition organization, and parent-teacher communication.",
       "technologies": ["Flutter", "SQLite", "Firebase"],
       "link": "",
-      "images": ["projects_images/test - Copy - Copy - Copy.jpg"]
+      "imageFolder": "school-app",
+      "images": []
     },
     {
       "name": "Best Coach",
@@ -156,7 +159,8 @@
       "details": "Fitness application combining personalized training programs with an integrated marketplace for sports equipment. Features workout tracking, progress analytics, and social features.",
       "technologies": ["Flutter", "Firebase", "Payment Integration", "Analytics"],
       "link": "",
-      "images": ["projects_images/test - Copy (2) - Copy.jpg"]
+      "imageFolder": "best-coach",
+      "images": []
     },
     {
       "name": "Al‑Matin HR App",
@@ -164,6 +168,7 @@
       "details": "Internal HR management application for Al-Matin Group, handling employee leave requests, performance evaluations, and various HR administrative tasks with workflow automation.",
       "technologies": ["Flutter", "Odoo ERP Integration", "REST API"],
       "link": "",
+      "imageFolder": "almatin-hr",
       "images": []
     },
     {
