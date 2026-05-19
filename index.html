@@ -614,8 +614,7 @@
           "links": {
             "playstore": "https://play.google.com/store/apps/details?id=hawwala.market.me.hawwala"
           },
-          "imageFolder": "",
-          "images": []
+                    "images": []
         },
         {
           "name": "Sayara App",
@@ -625,16 +624,14 @@
           "links": {
             "playstore": "https://play.google.com/store/apps/details?id=com.tad.sayeara.com"
           },
-          "imageFolder": "",
-          "images": []
+                    "images": []
         },
         {
           "name": "Ride with Us App",
           "description": "A full transportation platform combining client and driver functionalities within a single Flutter application.",
           "details": "A full transportation platform combining client and driver functionalities within a single Flutter application. Clients can browse and book trips, select pick-up and drop-off points, manage baggage options, and apply advanced filters with professional map handling and routing logic. Drivers can add and manage multiple vehicles, customize vehicle details, and receive real-time updates. Built with Flutter focusing on concurrent operations, real-time notifications, advanced map integration, and scalable architecture.",
           "technologies": ["Flutter", "Google Maps", "Real-time Notifications", "Routing Logic", "Concurrent Operations"],
-          "imageFolder": "",
-          "images": []
+                    "images": []
         },
         {
           "name": "Door to Door App",
@@ -644,8 +641,7 @@
           "links": {
             "playstore": "https://play.google.com/store/apps/details?id=tadcenter.doortodoor.com"
           },
-          "imageFolder": "",
-          "images": []
+                    "images": []
         },
         {
           "name": "Electric Devices",
@@ -658,8 +654,7 @@
             "github": "https://github.com/husseinalhajali/electric-devices",
             "website": "https://electricdevices.com"
           },
-          "imageFolder": "electric-devices",
-          "images": []
+          "images": ["projects_images/electric-devices/electric-devices-1.jpg","projects_images/electric-devices/electric-devices-2.jpg","projects_images/electric-devices/electric-devices-3.jpg","projects_images/electric-devices/electric-devices-4.jpg","projects_images/electric-devices/electric-devices-5.jpg","projects_images/electric-devices/electric-devices-6.jpg"]
         },
         {
           "name": "Sections",
@@ -667,8 +662,7 @@
           "details": "Enterprise-level HR management system with advanced document handling, electronic signatures, performance tracking, and automated notification system. Built for scalability and security.",
           "technologies": ["Flutter", "Firebase", "E-Signature", "Push Notifications"],
           "link": "",
-          "imageFolder": "sections",
-          "images": []
+          "images": ["projects_images/sections/1.jpg","projects_images/sections/2.jpg","projects_images/sections/3.jpg","projects_images/sections/4.jpg","projects_images/sections/5.jpg","projects_images/sections/6.jpg","projects_images/sections/7.jpg","projects_images/sections/8.jpg","projects_images/sections/9.jpg","projects_images/sections/10.jpg","projects_images/sections/11.jpg","projects_images/sections/12.jpg","projects_images/sections/13.jpg","projects_images/sections/14.jpg","projects_images/sections/15.jpg"]
         },
         {
           "name": "Qundos",
@@ -679,8 +673,7 @@
             "playstore": "https://play.google.com/store/apps/details?id=com.qundos.app",
             "website": "https://qundos.com"
           },
-          "imageFolder": "qundos",
-          "images": []
+                    "images": []
         },
         {
           "name": "School App",
@@ -688,8 +681,7 @@
           "details": "Complete school management system handling student information, academic records, competition organization, and parent-teacher communication.",
           "technologies": ["Flutter", "SQLite", "Firebase"],
           "link": "",
-          "imageFolder": "school-app",
-          "images": []
+                    "images": []
         },
         {
           "name": "Best Coach",
@@ -697,8 +689,7 @@
           "details": "Fitness application combining personalized training programs with an integrated marketplace for sports equipment. Features workout tracking, progress analytics, and social features.",
           "technologies": ["Flutter", "Firebase", "Payment Integration", "Analytics"],
           "link": "",
-          "imageFolder": "best-coach",
-          "images": []
+                    "images": []
         },
         {
           "name": "Al‑Matin HR App",
@@ -706,8 +697,7 @@
           "details": "Internal HR management application for Al-Matin Group, handling employee leave requests, performance evaluations, and various HR administrative tasks with workflow automation.",
           "technologies": ["Flutter", "Odoo ERP Integration", "REST API"],
           "link": "",
-          "imageFolder": "almatin-hr",
-          "images": []
+          "images": ["projects_images/almatin-hr/IMG-20230501-WA0013.jpg","projects_images/almatin-hr/IMG-20230501-WA0014.jpg","projects_images/almatin-hr/IMG-20230501-WA0015.jpg","projects_images/almatin-hr/IMG-20230501-WA0016.jpg","projects_images/almatin-hr/IMG-20230501-WA0017.jpg","projects_images/almatin-hr/IMG-20230501-WA0018.jpg","projects_images/almatin-hr/IMG-20230501-WA0019.jpg","projects_images/almatin-hr/IMG-20230501-WA0021.jpg","projects_images/almatin-hr/IMG-20230501-WA0022.jpg","projects_images/almatin-hr/IMG-20230501-WA0027.jpg","projects_images/almatin-hr/IMG-20230501-WA0028.jpg","projects_images/almatin-hr/IMG-20230501-WA0031.jpg"]
         },
         {
           "name": "Production System",
@@ -715,8 +705,7 @@
           "details": "Industrial production monitoring system providing real-time tracking of manufacturing processes, quality control, and comprehensive reporting dashboard.",
           "technologies": ["Flutter", "Real-time Database", "Charts", "PDF Reports"],
           "link": "",
-          "imageFolder": "freelancing-work",
-          "images": []
+                    "images": []
         },
         {
           "name": "Cost Calculations",
@@ -780,22 +769,6 @@
     
     let resumeData = null;
 
-    // Load images dynamically from folder
-    async function loadProjectImages(project) {
-      if (!project.imageFolder) return project.images || [];
-      
-      const folderMappings = {
-        'electric-devices': ['electric-devices-1.jpg', 'electric-devices-2.jpg', 'electric-devices-3.jpg', 'electric-devices-4.jpg', 'electric-devices-5.jpg', 'electric-devices-6.jpg'],
-        'sections': ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg'],
-        'school-app': ['school-app-1.jpg', 'school-app-2.jpg', 'school-app-3.jpg', 'school-app-4.jpg', 'school-app-5.jpg', 'school-app-6.jpg', 'school-app-7.jpg', 'school-app-8.jpg', 'school-app-9.jpg'],
-        'best-coach': ['1757000767531.jpg', '1757000767586.jpg', '1757000767661.jpg', '1757000767719.jpg', '1757000767777.jpg', '1757000767835.jpg', '1757000767903.jpg', '1757000767972.jpg', '1757000768035.jpg', '1757000768106.jpg', '1757000768161.jpg', '1757000768215.jpg', '1757000768278.jpg', '1757000768329.jpg', '1757000768376.jpg'],
-        'almatin-hr': ['IMG-20230501-WA0013.jpg', 'IMG-20230501-WA0014.jpg', 'IMG-20230501-WA0015.jpg', 'IMG-20230501-WA0016.jpg', 'IMG-20230501-WA0017.jpg', 'IMG-20230501-WA0018.jpg', 'IMG-20230501-WA0019.jpg', 'IMG-20230501-WA0021.jpg', 'IMG-20230501-WA0022.jpg', 'IMG-20230501-WA0027.jpg', 'IMG-20230501-WA0028.jpg', 'IMG-20230501-WA0031.jpg']
-      };
-      
-      const files = folderMappings[project.imageFolder] || [];
-      return files.map(file => `projects_images/${project.imageFolder}/${file}`);
-    }
-    
     async function loadResumeData() {
       try {
         // Try to load from JSON file first with cache busting
@@ -812,10 +785,6 @@
         resumeData = fallbackData;
       }
       
-      // Load images for each project
-      for (let project of resumeData.projects) {
-        project.images = await loadProjectImages(project);
-      }
       
       try {
         const data = resumeData;
